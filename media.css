@@ -1,0 +1,174 @@
+/*MEDIA QUERYS*/
+@media only screen and (max-width: 1900px) {
+  #interfaceBox {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1650px) {
+  #textContainer {
+    margin-right: 10%;
+  }
+
+  #interfaceBox {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  #interfaceBox {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  #textContainer {
+    margin-right: 20%;
+  }
+
+  #textContainer h1 {
+    font-size: 4.5rem;
+  }
+
+  #textContainer h2 {
+    font-size: 3.5rem;
+  }
+
+  #download {
+    justify-content: space-between;
+    margin-right: 10%;
+  }
+
+  #interfaceBox {
+    width: 85%;
+  }
+
+  #opinion-boxes {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  #textContainer {
+    margin-right: 40%;
+  }
+
+  #textContainer h1 {
+    font-size: 4rem;
+  }
+
+  #textContainer h2 {
+    font-size: 3rem;
+  }
+
+  #download {
+    justify-content: space-between;
+    margin-right: 15%;
+  }
+
+  #interfaceBox {
+    width: 85%;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0;
+  }
+
+  #interfaceImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+
+  #interfaceDesc {
+    width: 100%;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #interfaceDesc h1 {
+    font-size: 3rem;
+  }
+
+  #interfaceDesc h1 span {
+    text-align: center;
+    display: block;
+  }
+
+  #interfaceDesc p {
+    width: 100%;
+    text-align: center;
+  }
+
+  #opinions {
+    justify-content: space-evenly;
+  }
+
+  #opinion-boxes {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #imageContainer img {
+    display: none;
+  }
+
+  #textContainer {
+    margin: 0;
+  }
+
+  #download {
+    justify-content: center;
+    margin: 0;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  #info {
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+
+  .infoBox {
+    margin: 1.5rem auto;
+    width: 80%;
+  }
+
+  #opinion-boxes {
+    flex-direction: column;
+  }
+
+  #opinions h1 {
+    position: relative;
+    margin: 3rem auto 3rem auto;
+  }
+
+  .opinionBox {
+    height: auto;
+    width: 25%;
+    margin: 0 auto 3rem auto;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+  }
+
+  .opinionText {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  #contactLinks {
+    flex-direction: column;
+  }
+
+  #links {
+    margin-bottom: 1rem;
+  }
+}

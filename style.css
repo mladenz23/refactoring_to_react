@@ -1,0 +1,325 @@
+:root {
+  --orange: rgb(255, 122, 0);
+  --white: #f1f1f1;
+  --blue: #484766;
+  --greyText: #161616;
+  --greyBg: #444;
+  --red: #443333;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Molengo', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(90deg, var(--blue), #222);
+  overflow-x: hidden;
+}
+
+/* meni */
+#navbar {
+  max-height: 70px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  background: var(--white);
+  box-shadow: 0 1px 2px #fff;
+  z-index: 999;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-left: 30px;
+  padding: 0;
+  height: 70px;
+}
+
+.nav-list {
+  font-size: 22px;
+  padding: 0 5px;
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  color: var(--greyText);
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar a li:hover {
+  color: var(--orange);
+  transition: color 0.5s;
+  transition: font-size 0.5s;
+}
+
+#navbar a li div {
+  height: 2px;
+  width: 10%;
+  border-radius: 5px;
+  background-color: var(--orange);
+  opacity: 0;
+}
+
+#navbar a li:hover div {
+  transition: all 0.5s;
+  opacity: 100%;
+  width: 100%;
+}
+
+@keyframes identifier {
+}
+
+#navbar a {
+  text-decoration: none;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* sekcija download */
+#download {
+  max-width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  margin-top: 60px;
+  height: 100vh;
+  padding: 0 15%;
+}
+
+#textContainer h1 {
+  font-size: 5rem;
+  color: var(--orange);
+  margin: 0;
+  font-weight: normal;
+}
+
+#textContainer h2 {
+  font-size: 4rem;
+  color: var(--white);
+  font-weight: normal;
+  margin: 0;
+}
+
+#textContainer hr {
+  height: 10px;
+  width: 100px;
+  margin: 5rem auto 2rem 0;
+  background: var(--orange);
+  border: none;
+}
+
+#textContainer h3 {
+  font-size: 1.5rem;
+  color: var(--white);
+  font-weight: normal;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#downloadButton,
+#interfaceButton {
+  width: 15rem;
+  height: 3.5rem;
+  margin-top: 3rem;
+  background: var(--orange);
+  font-size: 18px;
+  font-family: 'Molengo';
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+#downloadButton:hover,
+#interfaceButton:hover {
+  background-color: var(--white);
+  transition: all 0.5s;
+}
+
+#imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#imageContainer img {
+  position: absolute;
+  top: 12.5vh;
+}
+
+#downloadImgOne {
+  border-radius: 50px;
+  width: 340px;
+  height: 690px;
+  margin-top: 5px;
+}
+
+#downloadImgTwo {
+  width: 350px;
+  height: 700px;
+}
+
+/* sekcija info */
+#info {
+  background-color: var(--white);
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.infoBox {
+  margin: 10rem 3rem;
+  width: 280px;
+}
+
+.infoLogo img {
+  width: 50px;
+}
+
+.infoTitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.infoText {
+  font-size: 17px;
+}
+
+/* sekcija interface */
+#interface {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: linear-gradient(0deg, var(--red), #222);
+}
+
+#interfaceBox {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  height: 80%;
+  margin: 5rem 0;
+}
+
+#interfaceImg {
+  width: 43%;
+}
+
+#interfaceDesc {
+  width: 57%;
+  margin-right: 0;
+}
+
+#interfaceDesc h1 {
+  font-size: 4.5rem;
+  color: var(--orange);
+  margin: 0 0 1rem 0;
+  font-weight: normal;
+}
+
+#interfaceDesc p {
+  color: var(--white);
+  width: 55%;
+  margin: 0;
+}
+
+/* sekcija za mnenja */
+#opinions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--white);
+  padding: 5rem 0;
+}
+
+#opinions h1 {
+  font-size: 30px;
+  margin: 0 0 2rem 0;
+}
+
+#opinion-boxes {
+  display: flex;
+  width: 50%;
+}
+
+.opinionBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1.1rem;
+}
+
+.opinionBox img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.opinionText {
+  text-align: center;
+  font-size: 17px;
+}
+
+#contactLinks {
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3rem 0;
+}
+
+#links {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#links img {
+  width: 50px;
+}
+
+.blurred {
+  filter: blur(5px);
+  transition: filter 0.5s;
+}
+
+.blurred.visible {
+  filter: blur(0);
+}
+
+.social-logo-1 {
+  content: url('./assets/icons/fbLogo.png');
+}
+
+.social-logo-1:hover {
+  content: url('./assets/icons/fbLogoOff.png');
+}
+
+.social-logo-2 {
+  content: url('./assets/icons/instLogo.png');
+}
+
+.social-logo-2:hover {
+  content: url('./assets/icons/instLogoOff.png');
+}
+
+.social-logo-3 {
+  content: url('./assets/icons/twitLogo.png');
+}
+
+.social-logo-3:hover {
+  content: url('./assets/icons/twitLogoOff.png');
+}
