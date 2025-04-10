@@ -22,44 +22,6 @@
   transition: all 0.5s;
 } */
 
-#interface {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  background: linear-gradient(0deg, var(--red), #222);
-}
-
-#interfaceBox {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  height: 80%;
-  margin: 5rem 0;
-}
-
-#interfaceImg {
-  width: 43%;
-}
-
-#interfaceDesc {
-  width: 57%;
-  margin-right: 0;
-}
-
-#interfaceDesc h1 {
-  font-size: 4.5rem;
-  color: var(--orange);
-  margin: 0 0 1rem 0;
-  font-weight: normal;
-}
-
-#interfaceDesc p {
-  color: var(--white);
-  width: 55%;
-  margin: 0;
-}
-
 /* sekcija za mnenja */
 #opinions {
   display: flex;
