@@ -8,7 +8,7 @@ export default function Download() {
   return (
     <section
       id='download'
-      className='blurred py-28 flex justify-evenly items-center mt-[70px] px-[15%] bg-gradient-to-r from-[var(--blue)] to-[#222]'
+      className='py-28 flex justify-evenly items-center mt-[70px] px-[15%] bg-gradient-to-r from-[var(--blue)] to-[#222]'
     >
       <div>
         <h1 className='text-[5em] text-[var(--orange)]'>DOWNLOAD</h1>
