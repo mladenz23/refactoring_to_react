@@ -45,7 +45,7 @@ export default function Footer() {
           />
         </a>
       </div>
-      <div id='arr'>&copy; 2024 BMI Tracker. Vse pravice pridržane.</div>
+      <div id='arr'>&copy; 2024 BMI Tracker. All rights reserved.</div>
     </footer>
   );
 }

@@ -13,23 +13,14 @@ export default function Interface() {
         </div>
         <div id='interfaceDesc' className='w-[57%]'>
           <h1 className='text-7xl text-[var(--orange)] mb-4'>
-            Ergonomski
+          Ergonomic
             <br />
-            <span>vmesnik</span>
+            <span>Interface</span>
           </h1>
           <p className='text-[var(--white)] w-[55%]'>
-            Naš ergonomski vmesnik je ključnega pomena za uporabniško izkušnjo,
-            da bo le-ta učinkovita in prijetna. To vključuje skrbno postavljene
-            elemente, ki omogočajo intuitivno navigacijo in enostavno uporabo.
-            Poleg tega je naš vmesnik prilagodljiv za vse naprave, kar
-            zagotavlja optimalno berljivost in uporabnost na različno velikih
-            zaslonih. Jasna organizacija informacij ter dosledna uporaba barv,
-            tipografije in simbolov prispevajo k enostavni prepoznavnosti in
-            razumevanju vmesnika. V celoti, naš vmesnik omogoča gladko in
-            prijetno uporabniško izkušnjo, ki spodbuja produktivnost in
-            zadovoljstvo uporabnika.
+          Our ergonomic interface plays a key role in ensuring an efficient and pleasant user experience. It features thoughtfully placed elements that allow for intuitive navigation and easy use. Additionally, our interface is fully responsive across all devices, ensuring optimal readability and usability on screens of all sizes. Clear organization of information, along with consistent use of colors, typography, and icons, contributes to easy recognition and understanding of the interface. Overall, our interface provides a smooth and enjoyable user experience that promotes productivity and user satisfaction.
           </p>
-          <button id='interfaceButton' className={btn}>PREIZKUSITE ZDAJ</button>
+          <button id='interfaceButton' className={btn}>TRY NOW</button>
         </div>
       </div>
     </section>

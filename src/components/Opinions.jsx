@@ -6,7 +6,7 @@ export default function Opinions() {
       id='opinions'
       className='blurred flex flex-col items-center bg-[var(--white)] py-20'
     >
-      <h1 className='text-3xl mb-10'>Mnenja uporabnikov</h1>
+      <h1 className='text-3xl mb-10'>User feedback</h1>
 
       <div id='opinion-boxes' className='flex w-1/2'>
         {opinionsData.map((opinion, i) => (

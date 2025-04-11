@@ -22,10 +22,6 @@
   transition: all 0.5s;
 } */
 
-#links img {
-  width: 50px;
-}
-
 .blurred {
   filter: blur(5px);
   transition: filter 0.5s;

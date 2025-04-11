@@ -4,22 +4,22 @@ import historyImg from '../assets/icons/histImg.png';
 
 const infoData = [
   {
-    title: 'Izračun ITM',
+    title: 'Calculate BMI',
     label: 'Calculator',
     image: calculatorImg,
-    text: `Aplikacija BMI Tracker bo na podlagi vaše višine in teže natančno izračunala vaš indeks telesne mase in ga grafično prikazala. Z ekipo strokovnjakov redno skrbimo za točnost algoritma, redno posodabljanje in uvajanje novosti v našo aplikacijo ter posledično tudi za dobro uporabniško izkušnjo.`,
+    text: `The BMI Tracker app will accurately calculate your body mass index based on your height and weight and display it graphically. Our team of experts regularly ensures the accuracy of the algorithm, frequent updates, and the introduction of new features to our application, thereby also ensuring a good user experience.`,
   },
   {
-    title: 'Nasveti',
+    title: 'Advice',
     label: 'Document',
     image: documentImg,
-    text: `Poleg samega izračuna indeksa telesne mase in grafičnih prikazov, uporabnikom ponujamo tudi nasvete, kako izboljšati svoje stanje, če le s tem niso zadovoljni. Poleg že vgrajenih krajših nasvetov, smo uporabnikom na voljo tudi preko našega kontaktnega obrazca, na katerega odgovorimo v najkrajšem možnem času.`,
+    text: `In addition to calculating the body mass index and providing graphical displays, we also offer users advice on how to improve their condition if they are not satisfied with it. Alongside the built-in short tips, users can also reach out to us via our contact form, to which we respond as quickly as possible.`,
   },
   {
-    title: 'Zgodovina rezultatov',
+    title: 'Results history',
     label: 'History',
     image: historyImg,
-    text: `Meritve, ki jih uporabnik naredi, se vseskozi shranjujejo. Uporabniki lahko do shranjenih meritev dostopajo na lastnem profilu znotraj aplikacije. Shranjevanje meritev je namenjena izključno registriranim oz. prijavljenim uporabnikom.`,
+    text: `The measurements taken by the user are continuously saved. Users can access their stored measurements through their personal profile within the app. Measurement storage is available exclusively to registered or logged-in users.`,
   },
 ];
 
